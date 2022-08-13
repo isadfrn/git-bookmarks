@@ -10,25 +10,32 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" type="module" defer></script>
     <title>GitBookmarks</title>
   </head>
   <body>
     <header class="container">
-      <img src="./assets/img/logo.svg" alt="GitBookmarks" />
-      <form class="bookmark__form">
-        <label for="github__username">Type a GitHub username</label>
-        <input
-          type="text"
-          id="github__username"
-          name="github__username"
-          placeholder="Type a GitHub username"
-        />
-        <button class="btn__bookmark">
-          <img src="./assets/img/star-btn.svg" alt="Click to bookmark a username" />
-          <span>Bookmark</span>
-        </button>
-      </form>
+      <div class="search">
+        <img class="search__logo" src="./assets/img/logo.svg" alt="GitBookmarks" />
+        <form class="search__form">
+          <label class="search__form--label" for="search__username">Type a GitHub username</label>
+          <input
+            class="search__username--input"
+            type="text"
+            id="search__username"
+            name="search__username"
+            placeholder="Type a GitHub username"
+          />
+          <button class="search__btn">
+            <img 
+              class="search__btn--star"
+              src="./assets/img/star-btn.svg"
+              alt="Click to bookmark a username"
+            />
+            <span>Bookmark</span>
+          </button>
+        </form>
+      </div>
     </header>
     <main class="container">
       <div class="bookmarked">
@@ -39,25 +46,7 @@
           <span class="bookmarked__head--action">Action</span>
         </div>
         <div class="bookmarked__body">
-          <div class="bookmarked__body__row">
-            <div class="bookmarked__body__row__user">
-              <img
-                class="bookmarked__body__row__user--img"
-                src="https://avatars.githubusercontent.com/u/62663728?v=4"
-                alt="Isabella Nunes"
-              />
-              <span class="bookmarked__body__row__user--name">Isabella Nunes</span>
-              <span class="bookmarked__body__row__user--git">/isadfrn</span>
-            </div>
-            <span class="bookmarked__body__row__repositories">345</span>
-            <span class="bookmarked__body__row__followers">323</span>
-            <button class="bookmarked__body__row__action">Remove</button>
-          </div>
         </div>
-        <!--<div class="bookmarked__empty">
-          <img src="./assets/img/star-empty.svg" alt="A sad star" />
-          <span>No bookmarks yet</span>
-        </div>-->
       </div>
     </main>
   </body>
