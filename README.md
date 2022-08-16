@@ -18,7 +18,7 @@
 
 ## About
 
-A fully responsive page for keeping a list of favorites [GitHub](https://github.com/) accounts.
+A web app for keeping a list of favorites [GitHub](https://github.com/) accounts under the browser's local storage.
 
 ![A responsive GitHub bookmark list](./assets/img/demo.png)
 
