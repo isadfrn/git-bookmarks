@@ -1,7 +1,7 @@
 {
   "name": "git-bookmarks",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web app for keeping a list of favorites GitHub accounts under the browser's local storage",
   "main": "index.js",
   "scripts": {
     "start": "lite-server"
@@ -10,9 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/isadfrn/git-bookmarks.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "isadfrn",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/isadfrn/git-bookmarks/issues"
   },
