@@ -12,7 +12,7 @@ A page for keeping a list of favorites [GitHub](https://github.com/) accounts un
 
 ## Run
 
-Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.## Contributing
+Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.
 
 ## Status
 
